@@ -1,0 +1,32 @@
+@import "fuentes.scss";
+
+.content{
+    margin-top: 100px;
+    background-color: rgb(14, 14, 14);
+        .content__container{
+            display: flex;
+
+                .content__img{
+                    height: 90vh;
+                    margin: 50px;
+                }
+                
+                .content__text{
+                    font-family: $font-family;
+                    padding-right: 50px;
+                    text-align: justify;
+                    margin-top: 50px;
+
+                        .content__text-title{
+                            font-family: $titles-font;
+                            font-size: 50px;
+                            color: #C86D51;
+                        }
+                        .content__text-p{
+                            font-size: 20px;
+                            color: rgb(161, 161, 161);
+                        }
+                }
+
+        }
+}

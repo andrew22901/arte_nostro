@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+.main {
+  display: flex; }
+  .main .main__img {
+    height: 90vh;
+    margin: auto;
+    z-index: -100; }
+  .main .main__title {
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-size: 150px;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: 70px;
+    margin-top: 100px;
+    color: #a1a1a1; }
+  .main .main__subtitle {
+    font-family: "Arapey", serif;
+    color: #a1a1a1;
+    font-size: 50px;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: 70px; }
+  .main .main__button {
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat";
+    position: relative;
+    display: inline-block;
+    border: 2px solid #C86D51;
+    padding: 15px 80px;
+    color: #C86D51;
+    text-decoration: none;
+    border-radius: 15px;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 37%;
+    margin-top: 150px; }
+  .main .main__button:hover {
+    background: #C86D51;
+    color: white; }
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  z-index: 100; }
+  .navbar .navbar__logo {
+    height: 70px;
+    list-style: none;
+    color: white;
+    font-size: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 20px; }
+  .navbar .navbar__list {
+    list-style: none; }
+    .navbar .navbar__list .navbar__link {
+      padding-right: 10px;
+      font-size: 20px;
+      font-family: "Montserrat";
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s ease 0s; }
+    .navbar .navbar__list .navbar__link:hover {
+      color: gray; }
+    .navbar .navbar__list .navbar__active-link {
+      text-decoration: underline; }
+
+.content {
+  margin-top: 100px;
+  background-color: #0e0e0e; }
+  .content .content__container {
+    display: flex; }
+    .content .content__container .content__img {
+      height: 90vh;
+      margin: 50px; }
+    .content .content__container .content__text {
+      font-family: "Montserrat";
+      padding-right: 50px;
+      text-align: justify;
+      margin-top: 50px; }
+      .content .content__container .content__text .content__text-title {
+        font-family: "Arapey", serif;
+        font-size: 50px;
+        color: #C86D51; }
+      .content .content__container .content__text .content__text-p {
+        font-size: 20px;
+        color: #a1a1a1; }
+
+.footer {
+  text-align: center; }
+  .footer .footer__container {
+    color: #a1a1a1; }
+    .footer .footer__container .footer__container-text {
+      font-family: "Montserrat";
+      font-size: 20px;
+      padding: 20px; }
+    .footer .footer__container .footer__container-location {
+      font-family: "Montserrat";
+      font-size: 16px; }
+
+.poems {
+  margin-top: 100px;
+  background-color: #0e0e0e; }
+  .poems .poems__title {
+    text-align: center;
+    color: #a1a1a1;
+    padding-top: 50px;
+    font-family: "Arapey", serif;
+    font-size: 50px; }
+  .poems .poems__container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px; }
+    .poems .poems__container .poems__container-block {
+      margin: 0px 70px 50px 70px;
+      border: 2px solid #C86D51;
+      border-radius: 20px;
+      padding: 20px;
+      display: block;
+      color: #a1a1a1;
+      font-family: "Montserrat";
+      width: 50%;
+      text-align: center; }
+
+.galery {
+  margin-top: 100px;
+  background-color: #0e0e0e; }
+  .galery .galery__title {
+    text-align: center;
+    color: #a1a1a1;
+    padding-top: 50px;
+    font-family: "Arapey", serif;
+    font-size: 50px; }
+  .galery .galery__container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px; }
+    .galery .galery__container .galery__container-block {
+      margin: 0px 70px 50px 70px;
+      border: 2px solid #C86D51;
+      border-radius: 20px;
+      padding: 20px;
+      display: block;
+      color: #a1a1a1;
+      font-family: "Montserrat";
+      width: 50%;
+      text-align: justify; }
+      .galery .galery__container .galery__container-block .poems__container-block-img {
+        width: 90%;
+        height: 50%;
+        border: none;
+        margin: 20px; }
+
+.us {
+  margin-top: 20px;
+  background-color: #0e0e0e; }
+  .us .us__container {
+    text-align: center;
+    color: #a1a1a1; }
+    .us .us__container .us__container-title {
+      font-family: "Arapey", serif;
+      padding-top: 10px;
+      font-size: 46px; }
+    .us .us__container .us__container-text {
+      padding: 20px;
+      font-size: 20px;
+      font-family: "Montserrat"; }
+    .us .us__container .us__container-img {
+      width: 90vw; }
+
+.contact {
+  text-align: center;
+  background-color: #0e0e0e;
+  padding: 10px; }
+  .contact .contact__container {
+    color: #a1a1a1; }
+    .contact .contact__container .contact__container-title {
+      font-family: "Arapey", serif;
+      font-size: 50px; }
+    .contact .contact__container .contact__container-list {
+      list-style: none;
+      font-family: "Montserrat"; }
+
+body {
+  background-color: black; }

@@ -1,0 +1,62 @@
+@import "fuentes.scss";
+
+.main{
+    display: flex;
+    .main__img{
+        height: 90vh;
+        margin: auto;
+        z-index: -100;   
+    }
+
+    
+
+        
+        .main__title{
+            font-family: $titles-font;
+            font-weight: 400;
+            font-size: 150px;
+            z-index: 1;
+            margin-right: auto;
+            margin-left: 70px;
+            margin-top: 100px;
+            color: rgb(161, 161, 161);
+
+        }
+
+        .main__subtitle{
+            font-family: $titles-font;
+            color: rgb(161, 161, 161);
+            font-size: 50px;
+            z-index: 1;
+            margin-right: auto;
+            margin-left: 70px;
+            
+            
+
+        }
+
+
+        .main__button{
+            transition: all 0.3s ease 0s;
+            font-family: $font-family;
+            position: relative;
+            display: inline-block;
+            border: 2px solid #C86D51;
+            padding: 15px 80px;
+            color: #C86D51;
+            text-decoration: none;
+            border-radius: 15px;
+            background: transparent;
+            margin-top: 20px;
+            margin-left: 37%;
+            margin-top: 150px;
+            
+        }
+        .main__button:hover{
+            background: #C86D51;
+            color: white;
+            
+        
+        }
+    
+}

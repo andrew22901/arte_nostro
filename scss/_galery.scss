@@ -1,0 +1,39 @@
+.galery{
+    margin-top: 100px;
+    
+    background-color: rgb(14, 14, 14);
+
+    .galery__title{
+        text-align: center;
+        color: rgb(161, 161, 161);
+        padding-top: 50px;
+        font-family: $titles-font;
+        font-size: 50px;
+    }
+    
+    .galery__container{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 100px;
+            .galery__container-block{
+                margin: 0px 70px 50px 70px;
+                border: 2px solid #C86D51;
+                border-radius: 20px;
+                padding: 20px;
+                display: block;
+                color: rgb(161, 161, 161);
+                font-family: $font-family;
+                width: 50%;
+                text-align: justify;
+
+                    .poems__container-block-img{
+                        width: 90%;
+                        height: 50%;
+                        border: none;
+                        margin:20px;
+                        
+                    }
+                
+            }
+    }
+}

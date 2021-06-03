@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    z-index: 100;
+    
+   
+
+        .navbar__logo{
+            height: 70px;
+            list-style: none;
+            color: white;
+            font-size: $font-family;
+            font-weight: 400;
+            font-size: 30px;
+            text-decoration: none;
+            margin-left: 20px;
+        
+        }
+        .navbar__list{
+            list-style: none;
+            
+            .navbar__link{
+                padding-right: 10px;
+                font-size: $nav-font-size;
+                font-family: $font-family;
+                color: white;
+                text-decoration: none;
+                transition: all 0.3s ease 0s;
+            }
+            .navbar__link:hover{
+                color: gray;
+            }
+
+            .navbar__active-link{
+                
+                text-decoration: underline;
+            }
+        }
+       
+}

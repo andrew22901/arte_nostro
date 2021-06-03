@@ -1,0 +1,16 @@
+.footer{
+    text-align: center;
+        .footer__container{
+            color: rgb(161, 161, 161);
+
+                .footer__container-text{
+                    font-family: $font-family;
+                    font-size: 20px;
+                    padding: 20px;
+                }
+                .footer__container-location{
+                    font-family: $font-family;
+                    font-size: 16px;
+                }
+        }
+}

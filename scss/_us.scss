@@ -1,0 +1,28 @@
+.us{
+    margin-top: 20px;
+    background-color: rgb(14, 14, 14);
+        .us__container{
+            text-align: center;
+            color: rgb(161, 161, 161);
+                
+                .us__container-title{
+                    font-family: $titles-font;
+                    padding-top: 10px;
+                    font-size: 46px;
+                }
+
+                .us__container-text{
+                    padding: 20px;
+                    font-size: 20px;
+                    font-family: $font-family;
+
+                
+                }
+
+                .us__container-img{
+                    width: 90vw;
+                }
+        }
+        
+        
+}

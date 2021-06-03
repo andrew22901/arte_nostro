@@ -1,0 +1,20 @@
+.contact{
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    padding: 10px;
+
+        .contact__container{
+            color: rgb(161, 161, 161);
+                .contact__container-title{
+                    font-family: $titles-font;
+                    font-size: 50px;
+                }
+
+                .contact__container-list{
+                    list-style: none;
+                    font-family: $font-family;
+                }
+            
+        }
+    
+}
